@@ -1,5 +1,5 @@
 class Figure:
-    sides_count = 2
+    sides_count = 0
 
     def __init__(self, color=(0, 0, 0), *sides: int):
         self.__color = list(color)
